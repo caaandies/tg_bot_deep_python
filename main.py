@@ -165,7 +165,7 @@ def text(query):
         id='3',
         title='unban',
         input_message_content=types.InputTextMessageContent(
-            '/ban'
+            '/unban'
         )
     )
     stat = types.InlineQueryResultArticle(
